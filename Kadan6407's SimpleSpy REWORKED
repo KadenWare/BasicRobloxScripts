@@ -36,7 +36,7 @@ local line = 0
 local largestX = 0
 
 local lineSpace = 15
-local font = Enum.Font.Ubuntu
+local font = Enum.Font.SansSerif
 local textSize = 14
 
 local backgroundColor = Color3.fromRGB(23, 23, 23) -- roblox studio main background color
@@ -329,7 +329,7 @@ function render()
         --         lines[v.Line] = {}
         --     end
         --     for _, c in pairs(lines[v.Line]) do
-        --         lineSizeX = lineSizeX + TextService:GetTextSize(c.Char, 14, Enum.Font.Arial, Vector2.new(math.huge, math.huge)).X
+        --         lineSizeX = lineSizeX + TextService:GetTextSize(c.Char, 14, Enum.Font.SourceSansPro, Vector2.new(math.huge, math.huge)).X
         --     end
         --     textBox.TextColor3 = v.Color
         --     textBox.Size = UDim2.new(0, size.X, 0, size.Y)
