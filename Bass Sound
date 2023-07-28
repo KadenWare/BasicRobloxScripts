@@ -1,0 +1,17 @@
+local BassSound1 = Instance.new("Sound") -- new sound
+local BassSoundReverb1 = Instance.new("ReverbSoundEffect") -- reverb
+
+-- Bass Sound Properties:
+BassSound1.Name = "Bass Sound Effect 1"
+BassSound1.Parent = game.SoundService
+BassSound1.SoundId = "rbxassetid://550965268"
+BassSound1.Looped = false
+BassSound1.Volume = 1
+BassSound1:Play()
+
+-- Reverb Effect Properties:
+BassSoundReverb1.Name = "Bass Reverb x.54"
+BassSoundReverb1.Parent = BassSound1
+
+
+
